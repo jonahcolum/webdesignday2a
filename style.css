@@ -1,0 +1,53 @@
+body {
+	background-image: linear-gradient(45deg, #00f2fe 0%, #4facfe 25%, #fa709a 75%, #fda085 100%);
+	background-size: 2000% 2000%;
+	animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Futura;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 250px;
+}
+
+#ponec {
+  color: white;
+  mix-blend-mode: screen;
+  font-family: Helvetica;
+  text-align: center;
+  border-style: outset;
+  border-width: 5px;
+  width: 450px;
+  font-weight: bold;
+  margin: auto;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: #ffffff;
+  transition: 1000ms ease;
+}
+
+#ponec:hover {
+  border-radius: 250px;
+  transition: 500ms ease;
+  border-style: inset;
+  color: black;
+  background-color: white;
+
+}
